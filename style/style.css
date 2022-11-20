@@ -347,14 +347,14 @@ body {
 
 .step1 {
     background: url(../img/Rectangle\ 18-2.png);
-    max-width: 110px;
+    width: 110px;
     height: 110px;
     padding: 20px;
 }
 
 .step2 {
     background: url(../img/Rectangle\ 18.png);
-    max-width: 110px;
+    width: 110px;
     height: 110px;
     padding: 20px;
 }
@@ -379,7 +379,7 @@ body {
 
 .step3 {
     background: url(../img/Rectangle\ 18-3.png);
-    max-width: 110px;
+    width: 110px;
     height: 110px;
     padding: 20px;
 }
@@ -571,14 +571,16 @@ body {
     top: 0px;
     flex-direction: column;
     background: url(../img/image\ 5.png);
+    width: 100%;
+    height: auto;
 }
 
 .contacts-block {
-    max-width: 1008px;
+    max-width: 900px;
     height: 600px;
-    left: 0px;
-    top: -1px;
-    background-color: #F4F7FB;
+    background: url(../img/Frame\ 90.png);
+    width: 100%;
+    height: auto;
 }
 
 .contacts-header {
@@ -642,7 +644,7 @@ body {
     display: flex;
     margin: 40px auto;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 700px;
 }
 
 .end-text1 {
@@ -932,20 +934,19 @@ body {
     .contacts {
         margin-top: 143px;
         display: flex;
-        width: 1024px;
+        max-width: 1024px;
         height: 600px;
         left: 0px;
         top: 0px;
         flex-direction: column;
-        background: url(../img/image\ 5.png);
+        background: none;
     }
 
     .contacts-block {
-        max-width: 1008px;
+        max-width: 1024px;
         height: 600px;
         left: 0px;
         top: -1px;
-        background-color: #F4F7FB;
     }
 
 
@@ -1186,7 +1187,7 @@ body {
 
     /* contacts */
     .contacts {
-        width: 768px;
+        max-width: 768px;
         height: 400px;
     }
 
@@ -1197,9 +1198,7 @@ body {
     .contacts-block {
         max-width: 768px;
         height: 600px;
-        left: 0px;
-        top: -1px;
-        background-color: #F4F7FB;
+        
     }
 
 
@@ -1219,7 +1218,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
 
     /* baner */
     .banner {
@@ -1253,6 +1252,7 @@ body {
     .step {
         max-width: 480px;
         height: 1200px;
+        margin: 0 auto;
     }
 
     .step-blocks {
@@ -1297,6 +1297,7 @@ body {
     .contacts {
         max-width: 480px;
         height: 800px;
+        margin: 50px auto;
     }
 
     .contacts-header {
