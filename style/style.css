@@ -285,9 +285,13 @@ body {
     left: 0px;
     top: 0px;
     background-color: rgb(29, 97, 244);
-    margin: 20px;
+    margin: 10px;
+    margin-top: 20px;
     padding: 40px;
 }
+
+
+
 
 .services-block3-bottom {
     max-width: 400px;
@@ -295,7 +299,7 @@ body {
     left: 0px;
     top: 0px;
     background-color: rgb(29, 97, 244);
-    margin: 20px;
+    margin: 10px;
     padding: 40px;
 }
 
@@ -350,6 +354,7 @@ body {
     width: 110px;
     height: 110px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .step2 {
@@ -357,6 +362,7 @@ body {
     width: 110px;
     height: 110px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .step11 {
@@ -382,6 +388,7 @@ body {
     width: 110px;
     height: 110px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 /* team */
@@ -539,6 +546,9 @@ body {
 .form-check-label {
     color: white;
 }
+.form-check1{
+    display: none;
+}
 
 .form-control1 {
     width: 370px;
@@ -562,6 +572,9 @@ body {
 }
 
 /* contacts */
+.map{
+    display: none;
+}
 .contacts {
     margin-top: 143px;
     display: flex;
@@ -1162,6 +1175,7 @@ body {
         display: flex;
         max-width: 768px;
         height: 500px;
+        margin-bottom: 100px;
     }
 
     .form-block {
@@ -1184,11 +1198,26 @@ body {
     .form-check-label {
         font-size: 8px;
     }
-
+    .call{
+        text-align: center;
+    }
+    .call-block{
+        max-width: 150px;
+        margin: 15px auto;
+    }
+    
     /* contacts */
+    .map{
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 0;
+        max-width: 720px;
+        margin: 0 auto;
+    }
     .contacts {
         max-width: 768px;
         height: 400px;
+        margin-top: 0;
     }
 
     .contacts-header {
@@ -1198,11 +1227,8 @@ body {
     .contacts-block {
         max-width: 768px;
         height: 600px;
-
     }
-
-
-
+  
     /* end */
     .end {
         margin: 20px auto;
@@ -1242,6 +1268,9 @@ body {
     /* services */
     .services {
         max-width: 380px;
+    }
+    .services-button{
+        text-align: center;
     }
 
     .services-block {
@@ -1286,22 +1315,38 @@ body {
     .form {
         height: 650px;
     }
-
+    .form-block-left{
+        text-align: center;
+    }
+    .call{
+        text-align: center;
+    }
     .form-block-left {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
     }
+    .form-check{
+        display: none;
+    }
+    .form-check1{
+        display: block;
+    }
 
     /* contacts */
+    .map{
+        max-width: 580px;
+    }
+   
     .contacts {
         max-width: 480px;
         height: 800px;
-        margin: 50px auto;
+        margin: 0 auto;
     }
 
     .contacts-header {
         font-size: 26px;
+        text-align: center;
     }
 
     .contacts-container {
