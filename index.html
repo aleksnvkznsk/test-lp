@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Test_LP</title>
 </head>
 
@@ -109,8 +109,22 @@
 
     <!--services-->
     <div class="services">
-        <a class="services-button">Услуги</a>
+        <a href="#openModal" class="services-button">Услуги</a>
+        <div id="openModal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-block">
+                            <p class="services-text">Испытания веществи<br> и материалов</p>
+                            <a href="#close" title="Close" class="close">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="services-block">
+
             <div class="services-block1">
                 <p class="services-text">Определение <br> соответствия проектной <br> документации<br>в области ПБ
                 </p>
@@ -150,7 +164,7 @@
     <div class="step">
         <h1 class="step-h1">Процедура оформления</h1>
         <div class="step-blocks">
-            
+
             <div class="step-block">
                 <div class="step1">
                     <p class="step11">1</p>
