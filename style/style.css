@@ -58,6 +58,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     color: #313B59;
+    padding: 7px;
 }
 
 .nav-link1:hover {
@@ -68,12 +69,14 @@ body {
 .nav-link2 {
     display: inline-block;
     vertical-align: top;
-    margin: 18px;
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
     color: #313B59;
+    background-color: white;
+    border: none;
     font-family: 'Inter', sans-serif;
+
 }
 
 .nav-link2:hover {
@@ -88,11 +91,13 @@ body {
     font-weight: 600;
     font-size: 14px;
     border: 2px solid #F47A0B;
+    padding: 7px;
     border-radius: 5px;
     color: #313B59;
 }
 
 .nav-link-tel {
+    padding: 7px;
     display: inline-block;
     vertical-align: top;
     margin: 18px;
@@ -105,11 +110,11 @@ body {
 .dropbtn {
     background-color: white;
     color: #313B59;
-    padding: 16px;
     font-size: 18px;
     font-weight: 600;
     border: none;
     font-family: 'Inter', sans-serif;
+
 }
 
 .dropdown {
@@ -290,9 +295,6 @@ body {
     padding: 40px;
 }
 
-
-
-
 .services-block3-bottom {
     max-width: 400px;
     height: 260px;
@@ -302,6 +304,27 @@ body {
     margin: 10px;
     padding: 40px;
 }
+
+
+.services-block2-bottom:hover{
+    background-color: #F47A0B;
+  }
+ .services-block3-bottom:hover{
+    background-color: #F47A0B;
+  }
+  .services-block2-top:hover{
+    background-color: #F47A0B;
+  }
+  .services-block3-top:hover{
+    background-color: #F47A0B;
+  }
+  .services-block1:hover{
+    background-color: #F47A0B;
+  }
+
+
+
+
 
 .services-text {
     color: #FFFFFF;
@@ -652,12 +675,13 @@ body {
 @media (max-width: 1024px) {
 
     .header-container {
-        max-width: 800px;
+        max-width: 900px;
     }
 
     .nav2 {
         font-size: 10px;
     }
+   
 
     .nav-link1 {
         margin: 10px;
