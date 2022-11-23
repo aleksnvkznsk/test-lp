@@ -533,20 +533,21 @@ body {
 
 .line {
     border-left: 3px solid #FFFFFF;
-    height: 250px;
-    margin: 100px;
+    height: 450px;
+    margin: 30px;
 }
 
 .form-block {
     display: flex;
     margin: 70px auto;
-    max-width: 1920px;
+    max-width: 1500px;
 }
 
 .form-h1 {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
+    text-align: center;
 }
 
 .call-block {
@@ -622,6 +623,11 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
+.fbl{
+    text-align: center;
+}
+
+
 
 /* contacts */
 .map {
