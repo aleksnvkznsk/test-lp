@@ -18,15 +18,13 @@ function init() {
     var modal = document.getElementById('myModal');
     var btn = document.getElementById("myBtn");
 
-    btn.onclick = function(){
-         btn.addEventListener("click", function() { modal.classList.add("modal_opened") })
-    }
-    
-    window.onclick = function(event){
-        if (event.target == modal){
+    btn.addEventListener("click", function () { modal.classList.add("modal_opened") })
+    window.onclick = function (event) {
+        if (event.target == modal) {
             modal.classList.remove("modal_opened")
         }
     }
+   
 }
 
 document.addEventListener('DOMContentLoaded', init);
