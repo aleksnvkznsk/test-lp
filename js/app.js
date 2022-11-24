@@ -1,4 +1,3 @@
-
 function toggleMenu() {
     if (document.body.classList.contains('opened')) {
         document.body.classList.remove('opened');
@@ -19,17 +18,21 @@ function init() {
     var modal = document.getElementById('myModal');
     var btn = document.getElementById("myBtn");
 
-    btn.addEventListener("click", function () { modal.classList.add("modal_opened") })
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
+    btn.onclick = function(){
+         btn.addEventListener("click", function() { modal.classList.add("modal_opened") })
+    }
+    
+    window.onclick = function(event){
+        if (event.target == modal){
             modal.classList.remove("modal_opened")
-
         }
     }
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+
+
 
 
 
